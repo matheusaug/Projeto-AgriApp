@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar class="ion-text-center" expand="block" fill="outline">
+      <ion-icon (click)="abrirPagina('home2')" name="arrow-round-back" slot="start" size="large" color="success"></ion-icon>
+      <img src="assets/imagem/exx1.PNG" slot="end">
+      <ion-title>
+        <h3>
+          <font color="green">AGRICULTURA</font>
+        </h3>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+  <h3 class="ion-text-center"><font color="grey">ALGODÃO</font></h3>
+  
+        <ion-row>
+            <ion-col (click)="abrirPagina('algodao-sobre')" size="4"> Sobre
+              <ion-icon  name="book" color="success"></ion-icon>
+            </ion-col>
+
+            <ion-col size="4">Doenças
+                <ion-icon name="globe" color="success"></ion-icon>
+              </ion-col>
+
+            <ion-col size="4">Vendedor
+              <ion-icon name="globe" color="success"></ion-icon>
+            </ion-col>
+        </ion-row>
+        
+  
+</ion-content>
